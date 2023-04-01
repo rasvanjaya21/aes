@@ -1,5 +1,5 @@
 ---
 deployment:
-tasks:
-- export DEPLOYPATH=/home/ciky2869/public_html/aes
-- /bin/cp -r * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/ciky2869/public_html/
+    - /bin/cp -r * $DEPLOYPATH
